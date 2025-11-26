@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -124,7 +125,8 @@
       background-color: var(--border-color);
     }
 
-    .btn-primary:disabled, .btn-secondary:disabled {
+    .btn-primary:disabled,
+    .btn-secondary:disabled {
       background-color: var(--secondary-text);
       cursor: not-allowed;
       opacity: 0.7;
@@ -139,8 +141,13 @@
       color: var(--secondary-text);
     }
 
-    .status.success { color: var(--success-color); }
-    .status.error { color: var(--error-color); }
+    .status.success {
+      color: var(--success-color);
+    }
+
+    .status.error {
+      color: var(--error-color);
+    }
 
     .spinner {
       width: 16px;
@@ -153,8 +160,13 @@
     }
 
     @keyframes spin {
-      0% { transform: rotate(0deg); }
-      100% { transform: rotate(360deg); }
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
     }
 
     .loading .spinner {
@@ -162,6 +174,7 @@
     }
   </style>
 </head>
+
 <body>
   <div class="container">
     <header>
@@ -184,13 +197,14 @@
 
     <button id="extractBtn" class="btn-primary">
       <span class="spinner"></span>
-      <span class="btn-text">Export JSON for Figma</span>
+      <span class="btn-text">Export JSON </span>
     </button>
-    
+
     <button id="copyBtn" class="btn-secondary">
-      <span class="btn-text">Copy JSON to Clipboard</span>
+      <span class="btn-text">Copy JSON </span>
     </button>
   </div>
   <script type="module" src="src/ui/popup.js"></script>
 </body>
+
 </html>

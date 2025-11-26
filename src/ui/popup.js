@@ -139,8 +139,8 @@ document.addEventListener('DOMContentLoaded', function () {
     disableButtons(isLoading);
 
     if (!isLoading) {
-      extractBtnText.textContent = 'Export JSON for Figma';
-      copyBtnText.textContent = 'Copy JSON to Clipboard';
+      extractBtnText.textContent = 'Export JSON ';
+      copyBtnText.textContent = 'Copy JSON ';
       extractBtn.classList.remove('loading');
       return;
     }

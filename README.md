@@ -71,6 +71,7 @@ Since this is a Chrome Extension, "running" it involves loading it into your bro
 
 The project follows a modular, maintainable structure using ES Modules:
 
+```
 src/
 ├── core/
 │   ├── config.js             # Regex patterns, constants, and group definitions

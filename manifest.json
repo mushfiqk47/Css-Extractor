@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "CSS Overview Extractor",
+  "version": "1.0",
+  "description": "Extracts the full CSS overview from any website and saves it locally",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "downloads",
+    "tabs"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "CSS Overview Extractor"
+  },
+  "icons": {
+    "16": "Icon.png",
+    "32": "Icon.png",
+    "48": "Icon.png",
+    "128": "Icon.png"
+  }
+}

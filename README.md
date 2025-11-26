@@ -77,11 +77,6 @@ popup.html             # UI Entry Point
 3.  Click the **Reload** (circular arrow) icon on the extension card.
 4.  Re-open the extension popup on your target webpage.
 
-### Running Tests
-This project includes a browser-based unit test suite to verify the extraction logic.
-1.  Locate the file `tests/index.html` in your project folder.
-2.  Open it directly in Chrome (Double-click or Drag & Drop).
-3.  The page will display "PASS" or "FAIL" for each test case.
 
 ## Contributing
 Pull requests are welcome! Please ensure existing tests pass by checking `tests/index.html` before submitting.
